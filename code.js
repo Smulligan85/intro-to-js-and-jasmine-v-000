@@ -1,5 +1,3 @@
-'use strict';
-
 function favIceCream(flavor) {
   return "I love " + flavor;
 }
@@ -9,9 +7,9 @@ function shouting(phrase) {
 }
 
 function roundDown(num) {
-  return num.floor();
+  return Math.floor(num);
 }
 
-function theTruth {
+function theTruth() {
   return true;
 }
